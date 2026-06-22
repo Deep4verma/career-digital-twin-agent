@@ -1,81 +1,37 @@
-# Career Digital Twin Agent using Agno
+# Career Digital Twin Agent
 
-## Problem Statement
+An AI-powered Career Digital Twin built using Agno Framework.
 
-Traditional job recommendation systems rely only on resumes and job descriptions. They ignore a user's learning journey, evolving interests, career goals, and future potential.
+## Features
 
-As a result, users receive static recommendations that fail to adapt as they learn new skills or shift career directions.
-
-## Solution
-
-This project implements a Career Digital Twin that continuously learns from user interactions and builds an evolving representation of a user's career profile.
-
-The system tracks:
-
-* Resume-based skills and experience
-* Career goals
-* Learning activities
-* Interests
-* Historical profile evolution
-
-The Digital Twin then predicts future specialization, recommends next skills, and generates a personalized career trajectory.
-
-## Architecture
-
-### Agent 1: Resume Parser Agent
-
-Extracts:
-
-* Education
-* Skills
-* Projects
-* Domains
-
-from uploaded resumes using Agno and Groq.
-
-### Agent 2: Digital Twin Builder Agent
-
-Combines:
-
-* Resume Profile
-* User Memory
-* Historical Learning Data
-
-to create an evolving Career Digital Twin.
-
-Outputs:
-
-* Expertise Scores
-* Learning Evolution
-* Profile Changes
-* Future Specialization
-* Career Path Prediction
-* Recommended Skills
-
-## Continuous Learning
-
-Unlike traditional systems, the Digital Twin stores historical user states.
-
-Each interaction updates memory rather than replacing it.
-
-This enables:
-
-* Skill evolution tracking
-* Interest evolution tracking
-* Career direction prediction
-* Future specialization forecasting
+- Resume Parsing Agent
+- Memory Agent
+- Continuous Learning Tracking
+- Digital Twin Builder
+- Skill Gap Analysis
+- Career Recommendation System
+- Future Career Prediction
+- Job Search Agent (Apify Integration)
+- Streamlit User Interface
 
 ## Tech Stack
 
-* Agno Framework
-* Groq LLM
-* Pydantic
-* Streamlit
-* Python
+- Python
+- Agno
+- Groq LLM
+- Streamlit
+- Apify
+- Pydantic
 
-## Future Scope
+## Multi-Agent Architecture
 
-* Job Matching Agent
-* Skill Gap Analysis Agent
-* Learning Roadmap Generator
-* LinkedIn Job Recommendation Integration
+1. Resume Parser Agent
+2. Memory Agent
+3. Digital Twin Builder Agent
+4. Skill Gap Agent
+5. Recommendation Agent
+6. Job Search Agent
+
+## Key Innovation
+
+The system continuously evolves a user's Digital Twin by storing historical learning behavior and predicting future specialization based on changing interests, skills, and career goals.
